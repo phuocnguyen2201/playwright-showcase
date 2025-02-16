@@ -15,11 +15,11 @@ Demonstrate simple automated test cases for some apps. This repo contains simple
 
 ##Run the test
 
-    In the terminal, run command below for all the tests:
+In the terminal, run command below for all the tests:
 
     npx playwright test
 
-    To run specific a test file:
+To run specific a test file:
 
     npx playwright test tests/filename.spec.ts
 
