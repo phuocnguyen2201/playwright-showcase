@@ -1,19 +1,24 @@
 # App Testing with Playwright
 
-##Overview
+## Overview
+
 Demonstrate simple automated test cases for some apps. This repo contains simple test suite for a Todo application, a MFA application, a Web application using Playwright.
 
-##Installation
-1. Clone the repository:
+## Installation
+
+Clone the repository:
+
     git clone https://github.com/phuocnguyen2201/playwright-showcase
 
-    init the npm:
+init the npm:
+
     npm init playwright@latest
 
-    some other packages:
+some other packages:
+
     npm install @axe-core/playwright otplib
 
-##Run the test
+## Run the test
 
 In the terminal, run command below for all the tests:
 
@@ -23,7 +28,7 @@ To run specific a test file:
 
     npx playwright test tests/filename.spec.ts
 
-##Folder structure
+## Folder structure
 ```
 project-root/
 ├── resrouces/                      # Contains all resources
